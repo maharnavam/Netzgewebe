@@ -1,6 +1,6 @@
 body {
 	width: 95%;
-	margin: 1% auto;
+	margin: 0.5% auto;
 }
 a {
   color: #00B7FF;
@@ -35,4 +35,57 @@ label {
 
 .banner {
 	text-align: right;
+}
+
+#menubar {
+    height: auto;
+    list-style-type: none;
+    padding: 8px 0px;
+    margin: 0px;
+    background: #ddeebb;
+}
+
+#menubar  li {
+    display: inline;
+    float: both;
+}
+
+#menubar a {
+  padding: .3em .4em .3em .4em;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: medium;
+  color: #004415; 
+}
+
+#menubar a:visited{
+   margin: 0;
+   padding: .3em .4em .3em .4em;
+   text-decoration: none;
+   font-weight: bold;
+   font-size: medium;
+   color: #227755;
+}
+
+#menubar a:active{
+   margin: 0;
+   padding: .3em .4em .3em .4em;
+   text-decoration: none;
+   font-weight: bold;
+   font-size: medium;
+   color: #227755;
+} 
+
+#menubar a:hover{
+   margin: 0;
+   padding: .3em .4em .3em .4em;
+   text-decoration: none;
+   font-weight: bold;
+   font-size: medium;
+   color: #f6f0cc;
+   background-color: #227755;
+   border-top-left-radius:15px;
+   border-bottom-left-radius:15px;
+   border-top-right-radius:15px;
+   border-bottom-right-radius:15px;
 }

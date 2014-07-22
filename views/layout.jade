@@ -9,6 +9,7 @@ html
     script(type='text/javascript', src="/javascripts/jquery-1.11.1.min.js")
     script(type='text/javascript', src="/javascripts/jquery-ui.min.js")
     script(type='text/javascript', src="/javascripts/util.js")
+    script(type='text/javascript', src="/javascripts/main.js")
 
   body
     script(type='text/javascript').
@@ -25,9 +26,9 @@ html
       });
 
     div.banner
-      -if (session && session.user) 
-         span Welcome #{session.user.first_name} #{session.user.last_name}
-
+      ul#menubar
+        li: a#admin(href="#") Admin
+        li: a#send-blog(href="#") Submit blog
     div.content
       block content
 
